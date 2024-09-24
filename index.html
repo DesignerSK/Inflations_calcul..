@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Inflationsrechner</title>
+</head>
+<body>
+
+<div class="background">
+    <h1>Inflationsrechner</h1>
+    <div class="container">
+        <h3>Inflationsrate: <input type="number" min="0.1" id="inflationRate">  %</h3> 
+        <h3> Yahre : <input type="number" min="1" id="jahren" > ? </h3>
+        <br>
+        <h3>Berechne, wie viel <input type="number" min="1" id="geld"> Eur wert sein wird.
+        <br>
+        <br>
+        <button onclick="inflationCalculator()">Berechnen</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
